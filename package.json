@@ -10,7 +10,6 @@
     "preview:dapp": "next start",
     "build": "npm run build:dapp",
     "start": "npm run start:dapp",
-    "prepare": "npm run dapp:serve",
     "lint": "npm run lint:dapp",
     "dapp:serve": "node ./lib/openbrowser.mjs"
   },
